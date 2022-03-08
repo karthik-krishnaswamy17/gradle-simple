@@ -37,9 +37,3 @@ wrapper {
     gradleVersion = "7.3.3"
     distributionType = Wrapper.DistributionType.ALL
 }
-sonarqube {
-    properties {
-        property 'sonar.host.url', 'http://sonarqube:9000'
-        property 'sonar.login', '25248536bd43640fd18c05ba69e6065b4aa06ad4'
-    }
-}
