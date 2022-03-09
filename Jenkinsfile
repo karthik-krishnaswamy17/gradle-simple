@@ -28,6 +28,9 @@ pipeline{
     dir("${env.WORKSPACE}@tmp") {
       deleteDir()
     }
+    dir("${env.WORKSPACE}@*@tmp") {
+      deleteDir()
+    }
     dir("${env.WORKSPACE}@script") {
       deleteDir()
     }
